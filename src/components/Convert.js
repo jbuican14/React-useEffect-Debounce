@@ -23,7 +23,7 @@ const Convert = ({ lang, txt }) => {
                 params: {
                     q: debouncedText,
                     target: lang.value,
-                    key: 'API-KEY'
+                    key: 'AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM'
                 }
             });
             setTranslated(data.data.translations[0].translatedText);
